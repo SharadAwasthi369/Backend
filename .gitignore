@@ -1,0 +1,52 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.pyo
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+.env/
+.envrc
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# SQLAlchemy
+migrations/
+
+# Flask-Migrate
+*.egg-info/
+*.egg
+dist/
+build/
